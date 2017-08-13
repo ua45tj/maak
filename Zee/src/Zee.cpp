@@ -32,6 +32,6 @@ bool Zee::isResponseReady(int id) const
 
 std::string Zee::getResponse(int id) const
 {
-  std::cout << "Zee::getResponse " << id << "\n";
+  std::cout << "Zee::getResponse " << id << " :: " << mIntValue << "\n";
   return "[this is response]";
 }
