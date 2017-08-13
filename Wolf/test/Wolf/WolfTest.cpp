@@ -4,7 +4,7 @@ int main()
 {
   Wolf wolf;
 
-  int expected = 13;
+  int expected = 14;
   int actual = wolf.howl();
 
   bool ok = (expected == actual);
