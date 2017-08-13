@@ -1,5 +1,13 @@
 #include "Wolf/Wolf.h"
 
+namespace
+{
+  int add1(int x)
+  {
+    return (x + 1);
+  }
+}
+
 Wolf::Wolf()
   : mTimes(13)
 {
@@ -7,5 +15,5 @@ Wolf::Wolf()
 
 int Wolf::howl() const
 {
-  return mTimes;
+  return add1(mTimes);
 }
